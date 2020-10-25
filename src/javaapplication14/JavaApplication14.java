@@ -24,7 +24,7 @@ public class JavaApplication14 {
         Date y2 = Date.from(Instant.parse("2018-06-25T15:42:07Z"));
         SimpleDateFormat sdf1 = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
         sdf1.setTimeZone(TimeZone.getTimeZone("GMT"));// Realizar a impressão no horário GMT
-        
+        // teste
         System.out.println(sdf1.format(y2));
     }
     
